@@ -9,8 +9,8 @@ import os
 # Sensor configuration
 DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 16  # GPIO Pin 16
-LOW_TEMP_THRESHOLD = 12.0  # Low temperature threshold in Celsius
-HIGH_TEMP_THRESHOLD = 18.0  # High temperature threshold in Celsius
+LOW_TEMP_THRESHOLD = 13.0  # Low temperature threshold in Celsius
+HIGH_TEMP_THRESHOLD = 20.0  # High temperature threshold in Celsius
 HUMIDITY_THRESHOLD = 75.0  # High humidity threshold in percentage
 HEATER_DURATION = 40 * 60  # 40 minutes in seconds
 
@@ -225,3 +225,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
