@@ -10,5 +10,3 @@ Current version (2.3.1) has had some updates following use testing.
   Timers adjusted for convenience.
 
   Displays version number and date.
-
-  Program now creates daily logs of temp.
