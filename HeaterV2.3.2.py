@@ -11,7 +11,7 @@ from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from matplotlib.dates import HourLocator, DateFormatter
 
 # ────────────────────── CONFIGURATION ──────────────────────
-VERSION = "2.3.1"                    # ← Now 2.3.1
+VERSION = "2.3.2"                    # ← Now 2.3.2
 DHT_SENSOR = Adafruit_DHT.DHT11
 DHT_PIN = 16
 LOW_TEMP_THRESHOLD = 11.0
